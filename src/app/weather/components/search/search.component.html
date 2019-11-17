@@ -1,0 +1,13 @@
+<form class="form-wrap form-inline mb-5">
+    <div class="form-group col-8 pl-0">
+        <input
+            class="form-control mt-3 col"
+            id="city"
+            name="city"
+            placeholder="City name here"
+            type="text"
+            [formControl]="city">
+    </div>
+    <button class="btn-search btn btn-primary mt-3 col-4" type="submit" (click)="search()">Search</button>
+    <div *ngIf="errorMessage" class="errorMessage">City not found</div>
+</form>

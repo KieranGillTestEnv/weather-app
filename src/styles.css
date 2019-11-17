@@ -1,0 +1,10 @@
+.form-wrap {
+    position: relative;
+}
+
+.errorMessage {
+    color: #d62121;
+    position: absolute;
+    bottom: -30px;
+    left: 14px;
+}
